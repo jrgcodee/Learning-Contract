@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Contract</title>
+
+    <style>
+        :root {
+            --bg-color: #0b0f1a;
+            --card-color: rgba(255, 255, 255, 0.08);
+            --accent-color: #00f5ff;
+            --text-color: #e6e6e6;
+            --muted-text: #b3b3b3;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: radial-gradient(circle at top, #12182b, #060913);
+            color: var(--text-color);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            letter-spacing: 2px;
+            text-shadow: 0 0 15px rgba(0, 245, 255, 0.6);
+        }
+
+        header p {
+            color: var(--muted-text);
+            margin-top: 8px;
+            font-size: 1rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            display: grid;
+            gap: 25px;
+        }
+
+        section {
+            background: var(--card-color);
+            backdrop-filter: blur(12px);
+            border-radius: 14px;
+            padding: 25px;
+            border: 1px solid rgba(0, 245, 255, 0.15);
+            box-shadow: 0 0 25px rgba(0, 245, 255, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 35px rgba(0, 245, 255, 0.25);
+        }
+
+        section h2 {
+            color: var(--accent-color);
+            margin-bottom: 12px;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+        }
+
+        section p {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text-color);
+            text-align: justify;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: var(--muted-text);
+            font-size: 0.95rem;
+        }
+
+        footer strong {
+            color: var(--accent-color);
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            section {
+                padding: 18px;
+            }
+
+            section h2 {
+                font-size: 1.2rem;
+            }
+
+            section p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Learning Contract</h1>
+        <p>Commitment to Growth, Discipline, and Innovation</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Expectations</h2>
+            <p>
+                I expect this course to strengthen my technical knowledge, improve my analytical thinking, and enhance my ability to apply concepts in real-world scenarios. I aim to gain both theoretical understanding and practical experience that will prepare me for future academic and professional challenges in the field of information technology.
+            </p>
+        </section>
+
+        <section>
+            <h2>Motivations</h2>
+            <p>
+                My motivation comes from my desire to continuously improve myself and to build skills that are relevant in a rapidly evolving technological world. The opportunity to learn, experiment, and grow pushes me to stay focused and committed. Achieving personal and academic goals drives me to give my best effort in this course.
+            </p>
+        </section>
+
+        <section>
+            <h2>Contributions</h2>
+            <p>
+                I will contribute by actively participating in class activities, completing tasks responsibly, and collaborating respectfully with my peers. I will maintain integrity in my work, manage my time efficiently, and remain open to feedback in order to improve my performance and support a positive learning environment.
+            </p>
+        </section>
+
+        <section>
+            <h2>Hindrances</h2>
+            <p>
+                Possible hindrances include time limitations, external responsibilities, and moments of mental fatigue. To overcome these challenges, I will practice discipline, prioritize my tasks, and seek assistance when necessary. By acknowledging these obstacles, I can take proactive steps to minimize their impact on my learning.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Signed by: <strong>Justine Jericho Gutierrez</strong></p>
+    </footer>
+
+</body>
+</html>
